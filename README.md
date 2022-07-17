@@ -1,6 +1,6 @@
 # Scott's CS Notes
 
-- [Tools](##Tools) [Git, VSCode]
+- :hammer:[Tools](#hammertools) [Git, [VSCode](#git)]
 - Platform [GitHub]
 - Languages [Python, Java, C/C++]
 - Framework [Flask]
@@ -10,5 +10,7 @@
 - Resources [CodeCademy]
 
 
-##Tools
-###Git
+## :hammer:Tools
+#### Git
+#### VSCode
+
