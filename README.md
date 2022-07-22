@@ -1,13 +1,13 @@
-# Scott's CS Notes
+# Scott's CS Notes :memo:
 
 - :hammer:[Tools](#hammertools) [[Git](#git), [VSCode](#git)]
 - :cloud:[Platform](#cloudplatform)[[GitHub](#github)]
-- Languages [Python, Java, C/C++]
+- :speech_balloon: Languages [Python, Java, C/C++]
 - Framework [Flask]
-- Operating System [Linux]
-- Network
-- Database [[SQL](#sql), MongoDB]
-- Resources [[W3School](https://www.w3schools.com/), [CodeCademy](https://www.codecademy.com/)]
+- :computer:[Operating System](#operating-system) [Linux]
+- :globe_with_meridians:Network
+- :floppy_disk:Database [[SQL](#sql), MongoDB]
+- :bomb:Resources [[W3School](https://www.w3schools.com/), [CodeCademy](https://www.codecademy.com/)]
 
 
 ## :hammer:Tools
