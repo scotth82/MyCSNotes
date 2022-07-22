@@ -6,18 +6,32 @@
 - Framework [Flask]
 - Operating System [Linux]
 - Network
-- Database [SQL, MongoDB]
-- Resources [[CodeCademy](https://www.codecademy.com/)]
+- Database [[SQL](#sql), MongoDB]
+- Resources [[W3School](https://www.w3schools.com/), [CodeCademy](https://www.codecademy.com/)]
 
 
 ## :hammer:Tools
+### Git
+- [Git Cheat Sheet - GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
+- [50 Git Commands - FreeCodeCamp](https://www.freecodecamp.org/news/git-cheat-sheet/)
+### VSCode
+
 ## :cloud:Platform
 ### GitHub
 #### Markdown
 - [Emojis](https://gist.github.com/rxaviers/7360908)
 - [Basic Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-#### Git
-- [Git Cheat Sheet - GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
-- [50 Git Commands - FreeCodeCamp](https://www.freecodecamp.org/news/git-cheat-sheet/)
-#### VSCode
 
+## Languages
+
+## Framework
+
+## Operating System
+
+## Network
+
+## Database
+### SQL
+### MongoDB (No-SQL)
+
+## Resources
