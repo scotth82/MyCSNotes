@@ -7,7 +7,7 @@
 - Operating System [Linux]
 - Network
 - Database [SQL, MongoDB]
-- Resources [CodeCademy]
+- Resources [[CodeCademy](https://www.codecademy.com/)]
 
 
 ## :hammer:Tools
