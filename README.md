@@ -53,12 +53,12 @@ ADD column_name datatype;
 ## Resources
 ### [Rice MCS](https://csweb.rice.edu/academics/graduate-programs/online-mcs)
 - [x] COMP 614 (R): Python Programming [2022 Spring]
-- [ ] COMP 613 (R): Java Programming [2023 Spring]
+- [x] COMP 665 (S): Data Visualization [2022 Spring]
+- [ ] **COMP 621 (E): Systems Software [2022 Fall]**
 - [ ] **COMP 630 (R): Databases [2022 Fall]**
 - [ ] **COMP 682 (R): Algorithms [2022 Fall]**
 - [ ] COMP 643 (S): Big Data [2023 Spring]
-- [x] COMP 665 (S): Data Visualization [2022 Spring]
-- [ ] **COMP 621 (E): Systems Software [2022 Fall]**
+- [ ] COMP 613 (R): Java Programming [2023 Spring]
 - [ ] COMP 642 (E): Machine Learning [2023 Spring]
 - [ ] COMP 610 (C): Software Construction [2023 Summer]
 
