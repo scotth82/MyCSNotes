@@ -1,13 +1,14 @@
 # Scott's CS Notes :memo:
 
 - :hammer: [Tools](#hammertools) [[Git](#git), [VSCode](#git)]
-- :cloud: [Platform](#cloudplatform)[[GitHub](#github)]
+- :cloud: [Platform](#cloudplatform)[[GitHub](#github), AWS]
 - :speech_balloon: [Languages](#languages) [Python, Java, C/C++]
 - [Framework](#framework)[Flask]
 - :computer: [Operating System](#operating-system) [Linux]
 - :globe_with_meridians: [Network](#network)
 - :floppy_disk: [Database](#database) [[SQL](#sql), MongoDB]
 - :bomb: [Resources](#resources) [[Rice MCS](#rice-mcs), [W3School](https://www.w3schools.com/), [CodeCademy](https://www.codecademy.com/)]
+- :eyeglasses: [Interview Preparation](#interview-preparation) [[LeetCode](https://leetcode.com/)] 
 
 
 ## :hammer:Tools
@@ -31,7 +32,8 @@
 ## Network
 
 ## Database
-### SQL
+### SQL - Structured Query Language
+#### [W3S-SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 #### Create Table
 ```
 CREATE TABLE table_name(
@@ -49,4 +51,15 @@ ADD column_name datatype;
 ### MongoDB (No-SQL)
 
 ## Resources
-### Rice MCS
+### [Rice MCS](https://csweb.rice.edu/academics/graduate-programs/online-mcs)
+- [x] COMP 614 (R): Python Programming [2022 Spring]
+- [ ] COMP 613 (R): Java Programming [2023 Spring]
+- [ ] **COMP 630 (R): Databases [2022 Fall]**
+- [ ] **COMP 682 (R): Algorithms [2022 Fall]**
+- [ ] COMP 643 (S): Big Data [2023 Spring]
+- [x] COMP 665 (S): Data Visualization [2022 Spring]
+- [ ] **COMP 621 (E): Systems Software [2022 Fall]**
+- [ ] COMP 642 (E): Machine Learning [2023 Spring]
+- [ ] COMP 610 (C): Software Construction [2023 Summer]
+
+## Interview Preparation
