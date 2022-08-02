@@ -34,6 +34,51 @@
 ## Database
 ### SQL - Structured Query Language
 #### [W3S-SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+#### Subqueries
+##### Non-Correlated Subqueries
+```
+SELECT * 
+FROM flights 
+WHERE origin in (
+    SELECT code 
+    FROM airports 
+    WHERE elevation > 2000);
+```
+```
+SELECT a.dep_month,
+       a.dep_day_of_week,
+       AVG(a.flight_count) AS average_flights
+  FROM (
+        SELECT dep_month,
+              dep_day_of_week,
+               dep_date,
+               COUNT(*) AS flight_count
+          FROM flights
+         GROUP BY 1,2,3
+       ) a
+ GROUP BY 1,2
+ ORDER BY 1,2;
+```
+##### Correlated Subqueries
+A row is processed in the outer query.
+Then, for that particular row in the outer query, the subquery is executed.
+```
+SELECT id
+FROM flights AS f
+WHERE distance > (
+ SELECT AVG(distance)
+ FROM flights
+ WHERE carrier = f.carrier);
+```
+```
+SELECT carrier, id,
+    (SELECT COUNT(*)
+FROM flights f
+WHERE f.id < flights.id
+AND f.carrier=flights.carrier) + 1
+ AS flight_sequence_number
+FROM flights;
+```
 #### Create Table
 ```
 CREATE TABLE table_name(
@@ -48,6 +93,7 @@ CREATE TABLE table_name(
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
+
 ### MongoDB (No-SQL)
 
 ## Resources
