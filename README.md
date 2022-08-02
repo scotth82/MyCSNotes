@@ -6,7 +6,7 @@
 - [Framework](#framework)[Flask]
 - :computer: [Operating System](#operating-system) [Linux]
 - :globe_with_meridians: [Network](#network)
-- :floppy_disk: [Database](#database) [[SQL](#sql), MongoDB]
+- :floppy_disk: [Database](#database) [[SQL](#sql---structured-query-language), MongoDB]
 - :bomb: [Resources](#resources) [[Rice MCS](#rice-mcs), [W3School](https://www.w3schools.com/), [CodeCademy](https://www.codecademy.com/)]
 - :eyeglasses: [Interview Preparation](#interview-preparation) [[LeetCode](https://leetcode.com/)] 
 
