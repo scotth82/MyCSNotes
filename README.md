@@ -36,7 +36,7 @@
 #### [W3S-SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 #### Subqueries
 ##### Non-Correlated Subqueries
-```
+```sql
 SELECT * 
 FROM flights 
 WHERE origin in (
@@ -44,7 +44,7 @@ WHERE origin in (
     FROM airports 
     WHERE elevation > 2000);
 ```
-```
+```sql
 SELECT a.dep_month,
        a.dep_day_of_week,
        AVG(a.flight_count) AS average_flights
@@ -62,7 +62,7 @@ SELECT a.dep_month,
 ##### Correlated Subqueries
 A row is processed in the outer query.
 Then, for that particular row in the outer query, the subquery is executed.
-```
+```sql
 SELECT id
 FROM flights AS f
 WHERE distance > (
@@ -70,7 +70,7 @@ WHERE distance > (
  FROM flights
  WHERE carrier = f.carrier);
 ```
-```
+```sql
 SELECT carrier, id,
     (SELECT COUNT(*)
 FROM flights f
@@ -80,7 +80,7 @@ AND f.carrier=flights.carrier) + 1
 FROM flights;
 ```
 #### Create Table
-```
+```sql
 CREATE TABLE table_name(
     column_name1 datatype,
     column_name2 datatype,
@@ -89,7 +89,7 @@ CREATE TABLE table_name(
 ```
 #### Change Existing Table
 ##### Add Column to Table
-```
+```sql
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
