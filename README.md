@@ -107,9 +107,9 @@ ADD column_name datatype;
 - [ ] **COMP 682 (R): Algorithms [2022 Fall] [THU 8:00PM]**
 - [ ] **COMP 643 (S): Big Data [2022 Fall] [WED 6:30PM]**
 - [ ] **COMP 628 (S): Cyber Security [2022 Fall] [TUE 6:30PM]**
-- [ ] COMP 621 (E): Systems Software [2022 Fall] [THU 8:00PM]
+- [ ] COMP 621 (E): Systems Software [2023 Spring]
 - [ ] COMP 613 (R): Java Programming [2023 Spring]
 - [ ] COMP 642 (E): Machine Learning [2023 Spring]
-- [ ] COMP 610 (C): Software Construction [2023 Summer]
+- [ ] COMP 610 (C): Software Construction [2022 Spring]
 
 ## Interview Preparation
