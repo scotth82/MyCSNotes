@@ -7,7 +7,7 @@
 - [ ] Finish M1 Problem Set
 
 
-##What Is An Algorithm?
+## What Is An Algorithm?
 - Arecipe for a computation
 - A computer program that computes something
 - An algorithm always halts!
