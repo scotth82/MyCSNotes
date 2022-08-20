@@ -1,4 +1,5 @@
-#COMP 682 Algorithms
+# COMP 682 Algorithms
+
 **ToDo:**
 - [ ] Horner's Rule Solving Polynomials
 - [ ] Reivew Log operation
