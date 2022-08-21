@@ -1,7 +1,7 @@
 # COMP 682 Algorithms
 
 ## What Is An Algorithm?
-- Arecipe for a computation
+- A recipe for a computation
 - A computer program that computes something
 - An algorithm always halts!
 
