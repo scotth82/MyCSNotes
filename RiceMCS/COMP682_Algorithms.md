@@ -1,12 +1,5 @@
 # COMP 682 Algorithms
 
-**ToDo:**
-- [ ] Horner's Rule Solving Polynomials
-- [ ] Reivew Log operation
-- [ ] Review videos again
-- [ ] Finish M1 Problem Set
-
-
 ## What Is An Algorithm?
 - Arecipe for a computation
 - A computer program that computes something
@@ -23,7 +16,28 @@
 - We often compare the large n behavior is called asymptotic complexity
 
 ## Horner's Rule
-- dfd
+```python
+# Horner's Method Solving Polynomial Example
+#2x^3 - 6x^2 + 2x - 1 for x = 3
+#x(2x^2 - 6x + 2) - 1
+#x(x(2x-6)+2)-1
+#n = 4
+#x = 5
+#p = [2, -6, 2, -1]
+
+def horner(p, n, x):
+    s = p[0] 
+    for idx in range(1, n):
+        s = s*x + p[idx]
+    return s   
+    
+p = [2, -6, 2, -1]
+n = len(p)
+x = 3
+
+print(horner(p,n,x))
+    
+```
 
 ## Searching Problem - find if v is in an ordered set
 - Naive Search
