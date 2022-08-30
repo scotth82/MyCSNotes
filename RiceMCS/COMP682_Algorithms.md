@@ -60,3 +60,7 @@ print(horner(p,n,x))
 - Pay it forward
 - Greedy (optimization)
 - Dynamic Programming **
+  
+## Pay It Forward - 2 Classic Algorithm 
+ - Dynaminc Arrary Sizing (Big Box Store)
+ - Union/Find
