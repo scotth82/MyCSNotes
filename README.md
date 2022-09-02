@@ -3,7 +3,7 @@
 - :hammer: [Tools](#hammertools) [[Git](#git), [VSCode](#git)]
 - :cloud: [Platform](#cloudplatform)[[GitHub](#github), AWS]
 - :speech_balloon: [Languages](#languages) [Python, Java, C/C++]
-- [Framework](#framework)[Flask]
+- [Framework](#framework)[Flask]git push
 - :computer: [Operating System](#operating-system) [Linux]
 - :globe_with_meridians: [Network](#network) [[AWS](http://aws.amazon.com)]
 - :floppy_disk: [Database](#database) [[SQL](#sql---structured-query-language), MongoDB]
@@ -113,3 +113,4 @@ ADD column_name datatype;
 - [ ] COMP 610 (C): Software Construction [2022 Spring]
 
 ## Interview Preparation
+### [LeetCode - Blind 75](LeetCodeBlind75.md)

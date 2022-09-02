@@ -61,6 +61,18 @@ print(horner(p,n,x))
 - Greedy (optimization)
 - Dynamic Programming **
   
-## Pay It Forward - 2 Classic Algorithm 
- - Dynaminc Arrary Sizing (Big Box Store)
- - Union/Find
+## Pay It Forward
+- Example: Predictive Texting
+- Exchange Space for Time
+ - 2 Classic Algorithm 
+   - Dynaminc Arrary Sizing (Big Box Store)
+     - Stack
+   - Union/Find
+     - Graph connectivity, if two nodes are connected
+     - Quick Find
+      ```python
+      const
+      ```
+     - Quick Union
+       - Join a shorter chain to a longer chain
+     - Using Pay it forward, MLog*(N)
