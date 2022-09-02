@@ -1,8 +1,9 @@
 # Leet Code - Blind 75
 
 ## Array 
-    - [ ] Two Sum
+    - [x] Two Sum
     - [ ] Best Time to Buy and Sell Stock
+- [ ] fff
 ## Binary
 
 ## Dynamic Programming
