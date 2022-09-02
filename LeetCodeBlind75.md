@@ -12,7 +12,7 @@
 ||Array|[15. 3Sum](https://leetcode.com/problems/3sum/)|Medium|Python||
 ||Array|[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Medium|Python||
 ||Binary|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium|Python||
-||Binary|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|Python||
+||Binary|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|[Python](#191-number-of-1-bits)||
 ||Binary|[338. Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|Python||
 ||Binary|[268. Missing Number](https://leetcode.com/problems/missing-number/)|Easy|Python||
 ||Binary|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)|Easy|Python||
@@ -23,19 +23,8 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 ```
 
-## Dynamic Programming
-
-## Graph
-
-## Interval
-
-## Linked List
-
-## Matrix
-
-## String
-
-## Tree
-
-## Heap
+#### 191. Number of 1 Bits
+```python
+Python bitwise operation
+```
 
