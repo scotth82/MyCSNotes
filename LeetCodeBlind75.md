@@ -1,9 +1,12 @@
 # Leet Code - Blind 75
 
 ## Array 
-    - [x] Two Sum
-    - [ ] Best Time to Buy and Sell Stock
-- [ ] fff
+|Status|Problem|Difficulty|Solution|Date|
+|:-:|:-|:-:|:-:|:-:|
+| X - 01 |[Two Sum](https://leetcode.com/problems/two-sum/)|Easy|Python|09/02/2022|
+||[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|Python||
+||||||
+||||||
 ## Binary
 
 ## Dynamic Programming
