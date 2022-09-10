@@ -37,6 +37,7 @@ Free tier: In your first year includes 750 hours of t2.micro (or t3.micro in the
 ## Database
 ### SQL - Structured Query Language
 #### [W3S-SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+#### [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
 #### Subqueries
 ##### Non-Correlated Subqueries
 ```sql
