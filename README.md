@@ -1,5 +1,5 @@
 # Scott's CS Notes :memo:
-
+test
 - :hammer: [Tools](#hammertools) [[Git](#git), [VSCode](#git)]
 - :cloud: [Platform](#cloudplatform)[[GitHub](#github), AWS]
 - :speech_balloon: [Languages](#languages) [Python, Java, C/C++]
