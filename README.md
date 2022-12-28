@@ -109,7 +109,7 @@ ADD column_name datatype;
 - [x] [COMP 643 (S): Big Data [2022 Fall] [WED 6:30PM]](RiceMCS/COMP643_BigData.md)
 - [x] [COMP 628 (S): Cyber Security [2022 Fall] [TUE 6:30PM]](RiceMCS/COMP628_CyberSecurity.md)
 - [ ] COMP 621 (E): Systems Software [2023 Spring]
-- [ ] COMP 613 (R): Java Programming [2023 Spring]
+- [ ] COMP 613 (R): Programming Languages/Java [2023 Spring]
 - [ ] COMP 642 (E): Machine Learning [2023 Spring]
 - [ ] COMP 610 (C): Software Construction [2022 Spring]
 
