@@ -38,66 +38,6 @@ Free tier: In your first year includes 750 hours of t2.micro (or t3.micro in the
 ### SQL - Structured Query Language
 #### [W3S-SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 #### [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
-#### Subqueries
-##### Non-Correlated Subqueries
-```sql
-SELECT * 
-FROM flights 
-WHERE origin in (
-    SELECT code 
-    FROM airports 
-    WHERE elevation > 2000);
-```
-```sql
-SELECT a.dep_month,
-       a.dep_day_of_week,
-       AVG(a.flight_count) AS average_flights
-  FROM (
-        SELECT dep_month,
-              dep_day_of_week,
-               dep_date,
-               COUNT(*) AS flight_count
-          FROM flights
-         GROUP BY 1,2,3
-       ) a
- GROUP BY 1,2
- ORDER BY 1,2;
-```
-##### Correlated Subqueries
-A row is processed in the outer query.
-Then, for that particular row in the outer query, the subquery is executed.
-```sql
-SELECT id
-FROM flights AS f
-WHERE distance > (
- SELECT AVG(distance)
- FROM flights
- WHERE carrier = f.carrier);
-```
-```sql
-SELECT carrier, id,
-    (SELECT COUNT(*)
-FROM flights f
-WHERE f.id < flights.id
-AND f.carrier=flights.carrier) + 1
- AS flight_sequence_number
-FROM flights;
-```
-#### Create Table
-```sql
-CREATE TABLE table_name(
-    column_name1 datatype,
-    column_name2 datatype,
-    column_name3 datatype
-);
-```
-#### Change Existing Table
-##### Add Column to Table
-```sql
-ALTER TABLE table_name
-ADD column_name datatype;
-```
-
 ### MongoDB (No-SQL)
 
 ## Resources
