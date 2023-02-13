@@ -1,7 +1,7 @@
 # Scott's CS Notes :memo:
 
 - :hammer: [Tools](#hammertools) [[Git](#git), [VSCode](#git)]
-- :cloud: [Platform](#cloudplatform)[[GitHub](#github), AWS]
+- :cloud: [Platform](#cloudplatform)[[GitHub](#github)]
 - :speech_balloon: [Languages](#languages) [Python, Java, C/C++]
 - [Framework](#framework)[Flask]
 - :computer: [Operating System](#operating-system) [Linux]
@@ -19,6 +19,8 @@
 ### [CodeSkulptor](https://py3.codeskulptor.org/) - browser based collaborative Python3 IDE
 ## :cloud:Platform
 ### GitHub
+### Jira
+### Confluence
 #### Markdown
 - [Emojis](https://gist.github.com/rxaviers/7360908)
 - [Basic Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
@@ -28,7 +30,6 @@
 - Java
 - Maven
 - Gradle
-
 ## Framework
 
 ## Operating System
@@ -44,6 +45,9 @@
 - VPC
 - Code Pipeline
 - TerraForm
+- Workspace
+- DynamoDB
+- S3
 
 ### Aure
 ### Google Compute cloudplatform
