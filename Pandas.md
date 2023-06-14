@@ -12,8 +12,7 @@
   pd.__version__
   ```
 
-- **Data Structures**
-  **Series**
+- **Data Structures - Series**
   ```python
   #series is a one-dimensional labled array holding any data type in column
   #optional index definition, default start from index 0
