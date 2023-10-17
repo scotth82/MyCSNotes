@@ -1,2 +1,2 @@
 # Cracking the Coding Interview
-- [ ] VI BigO : 10/17/2023
+- [ ] VI BigO | p. 26- 71 | 10/17/2023
