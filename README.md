@@ -9,6 +9,7 @@
 - :floppy_disk: [Database](#database) [[SQL](#sql---structured-query-language), MongoDB]
 - :bomb: [Resources](#resources) [[Rice MCS](#rice-mcs), [W3School](https://www.w3schools.com/), [CodeCademy](https://www.codecademy.com/)]
 - :eyeglasses: [Interview Preparation](#interview-preparation) [[LeetCode](https://leetcode.com/), [NeetCode](https://neetcode.io/)]
+- :book: [Reading](#reading)
 
 
 ## :hammer:Tools
@@ -133,3 +134,7 @@ ADD column_name datatype;
 
 ## Interview Preparation
 ### [LeetCode - Blind 75](LeetCodeBlind75.md)
+
+## Reading
+- [ ] [Effective Java](EffectiveJava.md)
+- [ ] [Cracking the Coding Interview](CrackingTheCodingInterview.md)
