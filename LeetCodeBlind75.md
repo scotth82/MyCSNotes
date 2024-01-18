@@ -22,13 +22,11 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashMap = {}
-        for idx in range(len(nums)):
-            hashMap[nums[idx]] = idx
-
-        for idx in range(len(nums)):
-            ans = target - nums[idx]
-            if ans in hashMap and hashMap[ans]!=idx:
-                return [idx, hashMap[ans]]
+        for idx, val in enumerate(nums):
+            ans = target - val
+            if ans in hashMap:
+                return [hashMap[ans], idx]
+            hashMap[val] = idx
 ```
 
 #### 191. Number of 1 Bits
