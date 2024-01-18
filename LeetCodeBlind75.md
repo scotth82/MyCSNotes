@@ -1,10 +1,10 @@
 # Leet Code - Blind 75
 
 |Status|Category|Problem|Difficulty|Solution|Date|
-|:-:|:-:|:-|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|:-:|
 | X - 01 |Array|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](#1-two-sum)|09/02/2022|
 ||Array|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|Python||
-||Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)||
+||Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)|01/18/2024|
 ||Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Medium|Python||
 ||Array|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|Python||
 ||Array|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|Python||
@@ -21,6 +21,14 @@
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashMap = {}
+        for idx in range(len(nums)):
+            hashMap[nums[idx]] = idx
+
+        for idx in range(len(nums)):
+            ans = target - nums[idx]
+            if ans in hashMap and hashMap[ans]!=idx:
+                return [idx, hashMap[ans]]
 ```
 
 #### 191. Number of 1 Bits
