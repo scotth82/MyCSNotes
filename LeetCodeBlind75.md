@@ -3,8 +3,9 @@
 |Status|Category|Problem|Difficulty|Solution|Date|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | X - 01 |Array|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](#1-two-sum)|01/18/2024|
+||Hash Table, String, Sorting|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|Python|
 ||Array|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Easy|Python||
-||Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)|01/18/2024|
+|X - 01|Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)|01/18/2024|
 ||Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Medium|Python||
 ||Array|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|Python||
 ||Array|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|Python||
@@ -28,6 +29,26 @@ class Solution:
                 return [hashMap[ans], idx]
             hashMap[val] = idx
 ```
+
+#### 242. Valid Anagram
+```python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s)!=len(t):
+            return False
+        
+        dictS = {}
+        dictT = {}
+
+        for char in s:
+            dictS[char] = dictS.get(char, 0) + 1
+        
+        for char in t:
+            dictT[char] = dictT.get(char, 0) + 1
+        
+        return dictS == dictT
+```
+
 
 #### 191. Number of 1 Bits
 ```python
