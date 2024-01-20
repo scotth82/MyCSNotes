@@ -3,7 +3,7 @@
 |Status|Category|Problem|Difficulty|Solution|Date|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |X - 01|Array|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](#1-two-sum)|01/18/2024|
-|X - 01|Hash Table, String, Sorting|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Python](#242-valid-anagram)|01/08/2024|
+|X - 01|Hash Table, String, Sorting|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Python](#242-valid-anagram)|01/18/2024|
 |X - 01|Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)|01/18/2024|
 |X - 01|Array, Hash Table, String, Sorting|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|[Python](#49-group-anagrams)|01/19/2024|
 ||Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Medium|Python||
