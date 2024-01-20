@@ -2,10 +2,10 @@
 
 |Status|Category|Problem|Difficulty|Solution|Date|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|:heavy_check_mark:|Array|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](#1-two-sum)|01/18/2024|
-|:heavy_check_mark:|Hash Table, String, Sorting|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Python](#242-valid-anagram)|01/18/2024|
-|:heavy_check_mark:|Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)|01/18/2024|
-|:heavy_check_mark:|Array, Hash Table, String, Sorting|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|[Python](#49-group-anagrams)|01/19/2024|
+|:fire:|Array|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](#1-two-sum)|01/18/2024|
+|:fire:|Hash Table, String, Sorting|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Python](#242-valid-anagram)|01/18/2024|
+|:fire:|Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)|01/18/2024|
+|:fire:|Array, Hash Table, String, Sorting|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|[Python](#49-group-anagrams)|01/19/2024|
 ||Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Medium|Python||
 ||Array|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|Python||
 ||Array|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|Python||
@@ -13,7 +13,7 @@
 ||Array|[15. 3Sum](https://leetcode.com/problems/3sum/)|Medium|Python||
 ||Array|[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Medium|Python||
 ||Binary|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium|Python||
-||Binary|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|[Python](#191-number-of-1-bits)||
+||Binary|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|Python||
 ||Binary|[338. Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|Python||
 ||Binary|[268. Missing Number](https://leetcode.com/problems/missing-number/)|Easy|Python||
 ||Binary|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)|Easy|Python||
