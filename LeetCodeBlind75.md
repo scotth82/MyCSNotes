@@ -3,10 +3,10 @@
 |Status|Category|Problem|Difficulty|Solution|Date|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |:fire:|Array|[1. Two Sum](https://leetcode.com/problems/two-sum/)|Easy|[Python](#1-two-sum)|01/18/2024|
-|:fire:|Hash Table, String, Sorting|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Python](#242-valid-anagram)|01/18/2024|
+|:fire:|Array|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|Easy|[Python](#242-valid-anagram)|01/18/2024|
 |:fire:|Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|[Python](#217-contains-duplicate)|01/18/2024|
-|:fire:|Array, Hash Table, String, Sorting|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|[Python](#49-group-anagrams)|01/19/2024|
-||Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|Medium|Python||
+|:fire:|Array|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|[Python](#49-group-anagrams)|01/19/2024|
+|:fire:|Array|[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|[Python](#347-top-k-frequent-elements)|01/21/2024|
 ||Array|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|Medium|Python||
 ||Array|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|Python||
 ||Array|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|Medium|Python||
@@ -71,4 +71,14 @@ class Solution:
             hashMap[tuple(sorted_word)].append(word)
 
         return hashMap.values()
+```
+
+#### 347. Top K Frequent Elements
+```python
+from collections import Counter
+
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        x = Counter(nums).most_common(k)
+        return list(zip(*x))[0]
 ```
