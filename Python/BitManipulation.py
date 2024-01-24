@@ -40,3 +40,17 @@ def set_bit(num: int, i: int) -> int:
 
 num = 0b1000
 print(bin(set_bit(num, 0)))
+
+
+def clear_bit()->int
+    pass
+
+
+def clear_bit_msb_to_i()->int
+    pass
+
+def clear_bit_i_to_lsb()->int
+    pass
+
+def update_bit()->int
+    pass
