@@ -129,8 +129,8 @@ ADD column_name datatype;
 - [x] [COMP 643 (S): Big Data [2022 Fall]](RiceMCS/COMP643_BigData.md)
 - [x] [COMP 628 (S): Cyber Security [2022 Fall]](RiceMCS/COMP628_CyberSecurity.md)
 - [x] COMP 613 (R): Java Programming [2023 Spring]
-- [ ] COMP 642 (E): Machine Learning [2023]
-- [ ] COMP 610 (C): Software Construction [2023]
+- [x] COMP 642 (E): Machine Learning [2023 Fall]
+- [x] COMP 610 (C): Software Construction [2023 Fall]
 
 ## Interview Preparation
 ### [LeetCode - Blind 75](LeetCodeBlind75.md)
