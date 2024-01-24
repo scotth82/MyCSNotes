@@ -35,22 +35,53 @@ print(get_bit(num, 3))
 
 def set_bit(num: int, i: int) -> int:
     print(f"\nInput num: {bin(num)} i: {i}")
-    print(f"left shift 1 by i: {bin(1<<i)}")
+    print(f"left shift 1 by i: {bin(1 << i)}")
     return num | (1 << i)
+
 
 num = 0b1000
 print(bin(set_bit(num, 0)))
 
 
-def clear_bit()->int
-    pass
+def clear_bit(num: int, i: int) -> int:
+    print(f"\nInput num: {bin(num)} i: {i}")
+    mask = ~(1 << i)  # 1110111, use 0 to mask ith bit
+    return num & mask
 
 
-def clear_bit_msb_to_i()->int
-    pass
+num = 0b1111
+print(bin(clear_bit(num, 2)))
 
-def clear_bit_i_to_lsb()->int
-    pass
 
-def update_bit()->int
-    pass
+def clear_bit_msb_to_i(num: int, i: int) -> int:
+    print(f"\nclear_bit_msb_to_i")
+    print(f"Input num: {bin(num)} i: {i}")
+    mask = (1 << i) - 1  # 0001000 -> 0000111
+    return num & mask
+
+
+num = 0b1111
+print(bin(clear_bit_msb_to_i(num, 2)))
+
+
+def clear_bit_i_to_lsb(num: int, i: int) -> int:
+    print(f"\nclear_bit_i_to_lsb")
+    print(f"Input num: {bin(num)} i: {i}")
+    mask = -1 << (i + 1)
+    return num & mask
+
+
+num = 0b1111
+print(bin(clear_bit_i_to_lsb(num, 2)))
+
+
+def update_bit(num: int, i: int, bitIs1: bool) -> int:
+    print(f"\nupdate bit")
+    print(f"Input num: {bin(num)} i: {i} bitIs1: {bitIs1}")
+    value = 1 if bitIs1 else 0
+    mask = ~(1 << i)
+    return (num & mask) | (value << i)
+
+
+num = 0b1111
+print(bin(update_bit(num, 2, 0)))
