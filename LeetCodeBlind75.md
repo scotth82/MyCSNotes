@@ -8,15 +8,8 @@
 |:fire:|Array|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|Medium|[Python](#49-group-anagrams)|01/19/2024|
 |:fire:|Array|[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|[Python](#347-top-k-frequent-elements)|01/21/2024|
 |:fire:|Array|[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|Medium|[Python](#238-product-of-array-except-self)|01/24/2024|
-||Array|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|Python||
-||Array|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|Medium|Python||
-||Array|[15. 3Sum](https://leetcode.com/problems/3sum/)|Medium|Python||
-||Array|[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|Medium|Python||
-||Binary|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|Medium|Python||
-||Binary|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|Python||
-||Binary|[338. Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|Python||
-||Binary|[268. Missing Number](https://leetcode.com/problems/missing-number/)|Easy|Python||
-||Binary|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)|Easy|Python||
+|:fire:|Array|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|[Python](#128-longest-consecutive-sequence)||
+
 
 #### 1. Two Sum
 ```python
@@ -99,4 +92,9 @@ class Solution:
             postfix *= nums[i]
         
         return ans
+```
+
+#### 128. Longest Consecutive Sequence
+```python
+
 ```
