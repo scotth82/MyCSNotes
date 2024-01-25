@@ -9,6 +9,7 @@
 |:fire:|Array|[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|Medium|[Python](#347-top-k-frequent-elements)|01/21/2024|
 |:fire:|Array|[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|Medium|[Python](#238-product-of-array-except-self)|01/24/2024|
 |:fire:|Array|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|[Python](#128-longest-consecutive-sequence)|01/25/2024|
+|:fire:|Bit Manipulation|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|[Python](#191-number-of-1-bits)|01/25/2024|
 
 
 #### 1. Two Sum
@@ -111,4 +112,15 @@ class Solution:
                 maxLen = max(maxLen, length)
 
         return maxLen
+```
+
+#### 191. Number of 1 Bits
+```python
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        tot = 0
+        for x in bin(n)[2:]:
+            if x == "1":
+                tot += 1
+        return tot
 ```
