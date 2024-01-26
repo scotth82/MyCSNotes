@@ -12,7 +12,7 @@
 |:fire:|Bit Manipulation|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|[Python](#191-number-of-1-bits)|01/25/2024|
 |:fire:|Bit Manipulation|[338. Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|[Python](#338-counting-bits)|01/25/2024|
 |:fire:|Bit Manipulation|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)|Easy|[Python](#190-reverse-bits)|01/26/2024|
-
+|:fire:|Bit Manipulation|[268. Missing Number](https://leetcode.com/problems/missing-number/)|Easy|[Python](#268-missing-number)|01/26/2024|
 
 #### 1. Two Sum
 ```python
@@ -145,4 +145,11 @@ class Solution:
         for i in range(32):
             bit = (n >> i) & 1  # get the LSB by right shift one bit at a time starting by left shift zero, i from index 0 to 31, total of 32 bits, set bit to AND 1
             result = result | bit << (31 - i)  # shift LSB all the way to left, effectively reversing order, and save to variable result
+```
+
+#### 268. Missing Number
+```python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        return (1+len(nums)) * len(nums) // 2 - sum(nums)
 ```
