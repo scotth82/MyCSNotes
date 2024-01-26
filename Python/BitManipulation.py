@@ -11,7 +11,8 @@ def get_bit(num: int, i: int) -> bool:
     print(f"Left shit 1 by i: {bin(1 << i)}")
     print(f"num & (1<<i) : {num & (1 << i)}")
     print("Is result not zero 0?")
-    return num & (1 << i) != 0
+   #return num & (1 << i) != 0
+    return 1 & (num>>i)
 
 
 num = 0b1101
@@ -34,7 +35,8 @@ print(get_bit(num, 3))
 # @return: int
 
 def set_bit(num: int, i: int) -> int:
-    print(f"\nInput num: {bin(num)} i: {i}")
+    print(f"\nset bit")
+    print(f"Input num: {bin(num)} i: {i}")
     print(f"left shift 1 by i: {bin(1 << i)}")
     return num | (1 << i)
 
