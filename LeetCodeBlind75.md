@@ -10,6 +10,8 @@
 |:fire:|Array|[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|Medium|[Python](#238-product-of-array-except-self)|01/24/2024|
 |:fire:|Array|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|Medium|[Python](#128-longest-consecutive-sequence)|01/25/2024|
 |:fire:|Bit Manipulation|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|Easy|[Python](#191-number-of-1-bits)|01/25/2024|
+|:fire:|Bit Manipulation|[338. Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|[Python](#338-counting-bits)|01/25/2024|
+|:fire:|Bit Manipulation|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)|Easy|[Python](#190-reverse-bits)|01/26/2024|
 
 
 #### 1. Two Sum
@@ -123,4 +125,24 @@ class Solution:
             if x == "1":
                 tot += 1
         return tot
+```
+
+#### 338. Counting Bits
+```python
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+        ans = []
+        for i in range(n + 1):
+            ans.append(bin(i).count("1"))
+        return ans
+```
+
+#### 190. Reverse Bits
+```python
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        result = 0
+        for i in range(32):
+            bit = (n >> i) & 1  # get the LSB by right shift one bit at a time starting by left shift zero, i from index 0 to 31, total of 32 bits, set bit to AND 1
+            result = result | bit << (31 - i)  # shift LSB all the way to left, effectively reversing order, and save to variable result
 ```
