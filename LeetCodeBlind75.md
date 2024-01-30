@@ -14,6 +14,7 @@
 |:fire:|Bit Manipulation|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)|Easy|[Python](#190-reverse-bits)|01/26/2024|
 |:fire:|Bit Manipulation|[268. Missing Number](https://leetcode.com/problems/missing-number/)|Easy|[Python](#268-missing-number)|01/26/2024|
 |:fire:|Bit Manipulation|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)|Medium|[Python](#371-sum-of-two-integers)|01/29/2024|
+|:fire:|Two Pointers|[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|Easy|[Python](#125-valid-palindrome)|01/29/2024|
 
 #### 1. Two Sum
 ```python
@@ -161,4 +162,18 @@ class Solution:
     def getSum(self, a: int, b: int) -> int:
         x = [a, b]
         return sum(x)
+```
+
+#### 125. Valid Palindrome
+```python
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = s.lower()
+        res = ""
+        for c in s:
+            if c.isalnum():
+                res += c
+        print(res)
+
+        return res == res[::-1]
 ```
