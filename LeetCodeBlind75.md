@@ -13,6 +13,7 @@
 |:fire:|Bit Manipulation|[338. Counting Bits](https://leetcode.com/problems/counting-bits/)|Easy|[Python](#338-counting-bits)|01/25/2024|
 |:fire:|Bit Manipulation|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)|Easy|[Python](#190-reverse-bits)|01/26/2024|
 |:fire:|Bit Manipulation|[268. Missing Number](https://leetcode.com/problems/missing-number/)|Easy|[Python](#268-missing-number)|01/26/2024|
+|:fire:|Bit Manipulation|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)|Medium|[Python](#371-sum-of-two-integers)|01/29/2024|
 
 #### 1. Two Sum
 ```python
@@ -152,4 +153,12 @@ class Solution:
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         return (1+len(nums)) * len(nums) // 2 - sum(nums)
+```
+
+#### 371. Sum of Two Integers
+```python
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
+        x = [a, b]
+        return sum(x)
 ```
